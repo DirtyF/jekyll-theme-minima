@@ -1,6 +1,8 @@
 # jekyll-theme-minima
 
-This is a child theme of minima, Jekyll's default theme.
+This is a child theme of [minima](https://github.com/jekyll/minima/), Jekyll's default theme, based on the work of @jglovier.
+
+This theme is only here to demo how to override an existing theme and publish it as a gem.
 
 ## Installation
 
