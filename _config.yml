@@ -1,0 +1,13 @@
+title: Jekyll child theme
+description: This is a child theme of minima, Jekyll's default theme
+
+theme: minima
+
+minima:
+  date_format: "%b %-d, %Y"
+show_excerpts: true
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-mentions

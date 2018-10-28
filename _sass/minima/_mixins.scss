@@ -1,0 +1,21 @@
+// Mixins
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//   .wrapper {
+//     padding-right: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+//   }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+// Declare font-size relatively to base font size:
+// @include relative-font-size(1.125);
+
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
